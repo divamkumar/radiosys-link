@@ -1,5 +1,3 @@
------
-
 # RadioSys-Link: Embedded System-of-Systems (Radio & Mission Computer)
 
 ### A Hardware-in-the-Loop (HIL) Avionics Prototype
@@ -154,3 +152,9 @@ A custom packet structure was implemented to serialize data between the Xtensa (
       * Connect Pi GPIO 14/15 to ESP32 UART.
       * Connect Pi GPIO 23 to ESP32 Alert Pin.
       * Boot and observe Kernel Logs: `dmesg -w`.
+
+-----
+
+## 🔮 Future Roadmap (Security Hardening)
+* **Secure Boot:** Implement U-Boot verified boot to ensure only signed Kernel images are loaded.
+* **Bus Encryption:** Upgrade the UART protocol to use AES-128 encryption to prevent bus snooping between the Radio and Mission Computer.
