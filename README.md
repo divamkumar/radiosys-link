@@ -141,7 +141,7 @@ A custom packet structure was implemented to serialize data between the Xtensa (
 
 1.  **Clone the Repo:**
     ```bash
-    git clone https://github.com/divamkumar/embedded-sos-radio-link.git
+    git clone https://github.com/divamkumar/radiosys-link.git
     ```
 2.  **Build the OS:**
     ```bash
