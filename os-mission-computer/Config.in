@@ -1,0 +1,2 @@
+source "$BR2_EXTERNAL_RADIOSYS_PATH/package/radiosys-driver/Config.in"
+source "$BR2_EXTERNAL_RADIOSYS_PATH/package/radiosys-module/Config.in"

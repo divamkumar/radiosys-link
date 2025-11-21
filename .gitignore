@@ -1,0 +1,41 @@
+# --- Buildroot Artifacts (The most important part) ---
+# Ignore the massive output directory (compiled OS images, build tools)
+buildroot/output/
+
+# Ignore downloaded source tarballs (saves bandwidth and space)
+buildroot/dl/
+
+# Ignore local Buildroot configuration (optional, but good practice to keep defconfig instead)
+buildroot/.config
+buildroot/.config.old
+buildroot/.config.cmd
+
+# --- C/C++ & Compilation ---
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+*.a
+*.so
+*.ko
+
+# --- ESP32 / Arduino / PlatformIO ---
+# If you use Arduino IDE
+**/build/
+*.ino.cpp
+*.ino.hex
+
+# If you use PlatformIO (highly recommended for this project)
+.pio/
+.vscode/
+
+# --- System & Editors ---
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+

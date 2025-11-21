@@ -1,0 +1,6 @@
+config BR2_PACKAGE_RADIOSYS_DRIVER
+    bool "radiosys-driver"
+    depends on BR2_INSTALL_LIBSTDCPP
+    help
+      User space telemetry daemon.
+
